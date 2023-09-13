@@ -5,8 +5,6 @@ import prodSectionData from "./prodSectionData";
 import { Link } from "react-router-dom";
 
 const ProductSection = () => {
-  //   console.log(prodSectionData);
-
   return (
     <section className="product-section">
       <div className="container">
