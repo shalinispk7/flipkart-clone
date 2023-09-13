@@ -1,0 +1,32 @@
+.header-sec {
+  background-color: dodgerblue;
+  /* height: 10vh; */
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.header-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 20px 5px;
+}
+.header-list a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.search-bar input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+.search-bar {
+  width: 32%;
+}
+.cart-img {
+  padding-left: 10px;
+}

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.product-type {
+  margin-top: 10px;
+}
+.product-type-row {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.product-type-col {
+  width: 20%;
+}
+.pro-type-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 6px;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 50vh;
+}
+.product-list-img img {
+  margin: auto;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.product-list-img {
+  height: 60%;
+  width: 100px;
+}
+.product-col p {
+  line-height: 25px;
+}
